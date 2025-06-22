@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="/nodejs.png" alt="" height="200pxl" width="200pxl">
+    <p>
+        To read file content in Node.js, the built-in fs (File System) module is used. There are primarily two ways to read files: asynchronously and synchronously.
+1. Asynchronous File Reading (Recommended for most cases):
+The fs.readFile() method is used for asynchronous file reading. This method is non-blocking, meaning it allows other operations to continue while the file is being read.
+2. Synchronous File Reading (Use with caution):
+The fs.readFileSync() method is used for synchronous file reading. This method blocks the execution of your code until the entire file has been read. While simpler to use, it can negatively impact performance in applications requiring high concurrency. 
+
+    </p>
+</body>
+</html>
